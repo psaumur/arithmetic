@@ -7,3 +7,7 @@ func Factorial(n int) int {
 	}
 	return f
 }
+
+func Add(n int) int {
+	return n + 1000
+}
