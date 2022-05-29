@@ -1,9 +1,9 @@
 package factorial
 
-func Factorial(n int) int {
-	var f int = 1
+func Factorial(n int) uint {
+	var f uint = 1
 	for i := 2; i <= n; i++ {
-		f *= i
+		f *= uint(i)
 	}
 	return f
 }
