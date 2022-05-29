@@ -1,6 +1,6 @@
 package factorial
 
-// needed to change output to uint because high numbers were returning 0
+/// needed to change output to uint because high numbers were returning 0
 
 func Factorial(n int) uint {
 	var f uint = 1
